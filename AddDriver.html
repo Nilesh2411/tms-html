@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-	h1 { 
+<style type="text/css">
+
+form{ margin-top: 42px;
+	margin-left: 3px;
+
+}
+h1 { 
 
 	color: dimgrey; 
 		text-align: center; 
-		font-size: 50px; 
+		font-size: 30px; 
 		padding: 10px;margin-bottom:0px;
-		 margin-top: 10px;
+		 margin-top: 50px;
 		 font-family: "Times new Roman",Times,serif; }
 
-
-	ul { list-style-type: none;
+		 	ul { list-style-type: none;
 		margin: 0px;
 		margin-bottom: 0px;
 		background-color: transparent;
@@ -59,19 +63,16 @@ display: inline-block;
 .dropdown:hover .dropdown-content{
 display: block;
 }
-body { background-image: url(backImage.jpg) ; background-size: 1600px 820px;	
-
-
-}
-
-
+	
+body { background-image: url(backImage.jpg) ; background-size: 1600px 820px; }
 </style>
-	<title>TMS</title>
-	</head>
+
+	<title>Add Driver</title>
+</head>
 <body>
 
-<h1>Transport Management Pvt. LTD.</h1>
-	<ul>
+<h1>INSERT NEW DRIVER DETAIL</h1>
+<ul>
 			<strong>
 				<li><a href="TMS.html" title="Home">Home</a></li></strong>
 			<div class="dropdown">
@@ -79,7 +80,7 @@ body { background-image: url(backImage.jpg) ; background-size: 1600px 820px;
 				<li><a href="" title="Drivers"><span>Drivers</span> </a> </li>
 
 			<div class="dropdown-content">
-	 			<a href="AddDriver.html" style="margin-bottom: 20px; margin-left: 20px;">Add a Driver</a><br>
+	 			<a href="AddDriver.html" style="margin-bottom: 20px; margin-left: 20px;">Add  Driver</a><br>
     			<a href="http://www.google.com" style="margin-bottom: 20px; margin-left: 20px;">Search Driver</a><br>
     			<a href="#" style="margin-bottom: 20px; margin-left: 20px;">Delete Driver</a>
 </div>
@@ -100,8 +101,24 @@ body { background-image: url(backImage.jpg) ; background-size: 1600px 820px;
 			<strong><li>  <a href="About Us.html" style="margin-left:  608px" title="About Us">  About Us</a></li></strong>
 	</ul>
 
+<form>
+
+
+	Driver ID Number:<br>
+	<input type="Number" name="Driver Id Number"> <br>
+	Driver Name:<br>
+	<input type="name" name="Driver Name"><br>
+	Age:<br>
+	<input type="Number" name="Age"><br>
+	Contact Number: <br>
+	<input type="Name" name="Contact Details"><br>
+	Date of birth:<br>
+	<input type="Date" name="DOB"><br><br>
+
+ 	<input type="submit" value="Submit">
+
+</form>
+
 
 </body>
 </html>
-
-
